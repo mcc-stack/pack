@@ -65,6 +65,7 @@ async function filContent(fsPath: string): Promise<string> {
   }
 
   await writeFileAsync(newFsPath, content);
+  await writeFileAsync(path.join(fsPath, 'index.module.scss'), '');
   return newFsPath;
 }
 
