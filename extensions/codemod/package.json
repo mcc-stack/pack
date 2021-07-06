@@ -51,12 +51,12 @@
   },
   "dependencies": {
     "@appworks/common-service": "^0.1.0",
+    "@appworks/connector": "^0.1.0",
     "@appworks/constant": "^0.1.0",
     "@appworks/i18n": "^0.1.0",
     "@appworks/logger": "^0.1.0",
     "@appworks/project-utils": "^0.1.0",
     "@appworks/recorder": "^0.1.0",
-    "@appworks/connector": "^0.1.0",
     "egg-logger": "^2.6.1",
     "fs-extra": "^9.1.0",
     "glob": "^7.1.6",

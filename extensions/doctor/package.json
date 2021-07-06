@@ -78,7 +78,6 @@
     }
   },
   "dependencies": {
-    "@babel/preset-env": "^7.1.6",
     "@appworks/common-service": "^0.1.0",
     "@appworks/connector": "^0.1.0",
     "@appworks/constant": "^0.1.0",
@@ -86,6 +85,7 @@
     "@appworks/project-service": "^0.1.0",
     "@appworks/recorder": "^0.1.0",
     "@appworks/storage": "^0.1.0",
+    "@babel/preset-env": "^7.1.6",
     "fs-extra": "^9.0.1",
     "git-repo-info": "^2.1.1",
     "mkdirp": "^1.0.4",

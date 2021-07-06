@@ -63,8 +63,8 @@ async function filContent(fsPath: string): Promise<string> {
     const projectLanguageType = await getProjectLanguageType(workspaceRootPath);
     newFsPath = path.join(fsPath, `${indexFilename}.${projectLanguageType}x`);
   }
-
   await writeFileAsync(newFsPath, content);
+  await writeFileAsync(path.join(fsPath, 'index.module.scss'), '');
   return newFsPath;
 }
 

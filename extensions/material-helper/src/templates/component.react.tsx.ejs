@@ -1,11 +1,16 @@
-import React from 'react';
+import { FC, memo } from 'react';
+import style from './index.module.scss';
 
-function <%= name %>() {
+interface I<%= name %> {
+  
+}
+
+const <%= name %>:FC<<%= name %>> = memo(() => {
   return (
     <div>
       <%= name %>
     </div>
   );
-}
+});
 
 export default <%= name %>;
